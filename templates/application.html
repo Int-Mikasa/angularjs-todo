@@ -1,0 +1,12 @@
+<div class="application">
+    <div>
+        <logo-component></logo-component>
+        <add-todo text="vm.text" add-todo="vm.addTodo"></add-todo>
+        <div ng-if="!vm.loader">
+            <todos-list remove-todo="vm.removeTodo" todos="vm.todos"></todos-list>
+        </div>
+        <div ng-if="vm.loader">
+            Loading.....
+        </div>
+    </div>
+</div>

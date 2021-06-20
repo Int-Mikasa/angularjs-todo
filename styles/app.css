@@ -1,0 +1,48 @@
+.application {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.application-add-todo-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.application-logo-text {
+    cursor: pointer;
+}
+
+.application-logo-input {
+    margin-bottom: 30px;
+}
+
+.text-line-through {
+    text-decoration: line-through;
+}
+
+.application-ul-lists {
+    list-style-type: none;
+    padding: 0;
+}
+
+.application-ul {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.application-logo {
+    text-align: center;
+}
+
+.application-ul-cross {
+    display: inherit;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 30px;
+}

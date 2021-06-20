@@ -1,0 +1,8 @@
+<ul class="application-ul" ng-repeat="todo in vm.todos">
+  <input type="checkbox" ng-model="todo.complited" ng-checked="todo.complited">
+  <li class="application-ul-lists" ng-class="{'text-line-through': todo.complited}">
+    <span>{{todo.id}}</span>
+    <span>{{todo.title}}</span>
+  </li>
+  <span ng-click="vm.removeTodo(todo.id)" class="application-ul-cross">&times;</span>
+</ul>

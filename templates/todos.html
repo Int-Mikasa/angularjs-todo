@@ -1,0 +1,8 @@
+<div>
+    <div ng-if="vm.todos.length > 0">
+        <todo-component remove-todo="vm.removeTodo" todos="vm.todos"></todo-component>
+    </div>
+    <div ng-if="vm.todos.length === 0">
+        No todos!
+    </div>
+</div>

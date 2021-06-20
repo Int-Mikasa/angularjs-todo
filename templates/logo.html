@@ -1,0 +1,4 @@
+<div class="application-logo">
+  <h1 class="application-logo-text" ng-dblclick="vm.changeEdit()" ng-show="!vm.edit">{{vm.logo}}</h1>
+  <input class="application-logo-input" ng-blur="vm.changeEdit()" ng-show="vm.edit" type="text" ng-model="vm.logo">
+</div>
